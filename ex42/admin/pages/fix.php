@@ -10,10 +10,10 @@
     <div class="fix">
         <?php include "navbar.php"?>
         <form class="fix-form" method="POST" action="fix.php" enctype="multipart/form-data">
-            <h1 class="fix-title">Sửa Sản Phẩm</h1>
+            <h1 class="fix-title">Cập nhật Sản Phẩm</h1>
             <input class="fix-ip" placeholder="STT" type="number" name="product_id"><br>
             <input class="fix-ip" placeholder="Tên sản phẩm" type="text" id="name" name="name"><br>
-            <input class="fix-ip pd0 w335" type="file" name="img" accept="image/*"><br>
+            <input class="fix-ip pd0" type="file" name="img" accept="image/*"><br>
             <input class="fix-ip" placeholder="Giá" type="number" id="price" name="price"><br>
             <input class="fix-ip w335" type="submit" value="Cập nhật">
             <?php
